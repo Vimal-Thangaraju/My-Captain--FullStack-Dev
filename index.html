@@ -1,147 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Resume</title> 
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  
+   <title>My To Do List</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
-<body >
-<div style="margin:75px;  padding:50px; border: 1px solid black;">
-   
-<div>
-      <div style="float:left;">
-	<img src="https://t3.ftcdn.net/jpg/04/65/28/38/240_F_465283840_xbslkvKPGlEO5Tqh8FXkPzHesZsq4d8n.jpg" style="height:75px; width:75px;">
-        <h1 style="padding-right:100px;">John Anderson</h1><!-- YOUR NAME AND LAST NAME  -->
-	<p style="font-size:20px;">FullStack Developer, Computer Scientist, <br>App Developer, CyberSecurity Specialist</p>
-      </div>
-      <div style="float: right;padding-top:25px;">
-      	<ul>
-      		<li>Call    :    +34 123 456 789</li>
-      		<li>Mail   :  j.anderson@gmail.com</li>
-      		<li>Web    :  <a href="#">janderson.com</a></li>
-      		<li>Home   :  Los Angeles, CA</li>
-      	</ul>
-        
-      </div>
 
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><hr>
-	
- <section>  
-	<div style="margin-top:25px;border-radius:1px;">
-		<div>
-		    <h2>Personal Profile</h2>
-		</div>
-
-      <div style="padding-left:270px; margin-top:-25px; border-radius:1px;border-color:black;"><!-- YOUR PRESENTATION RESUME  -->
-      	<p><span>Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod congue nisi, nec consequat quam. In consectetur faucibus turpis eget laoreet. Sed nec imperdiet purus. </p>
-      </div>
-      <div style="padding-left:270px;">
-      	<ul>
-      		<li>Twitter    :   <a href="">@janderson</a></li>
-      		<li>Dribbble    :  <a href="">janderson</a></li>
-      		<li>Codepen    :   <a href="">janderson</a></li>   
-      	</ul>
-      
-      </div>
-
-	</div>
-  </section>
-
-<br><br><hr>
-  <section>
-  	<div>
-  		<h2>Experience</h2>
-      
-      <div>
-      	<div style="padding-left:270px;">
-	<div>
-      		<div>Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-          <div class="time">Nov 2012 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-      	</div>
-        
-        <div>
-        	<div>Front End Developer </div> <!-- JOB TITLE  -->
-          <div>
-          	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>  <!-- JOB DESCRIPTION  -->
-          </div>
-        </div>
-        
-        <div class="company-wrapper clearfix">
-      		<div class="experience-title">Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-          <div class="time">Nov 2010 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-      	</div>
-        
-         <div>
-        	<div>Freelance, Web Designer / Web Developer</div> <!-- JOB TITLE  -->
-          <div>
-          	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>  <!-- JOB DESCRIPTION  -->
-          </div>
-        </div>
-        
-        <div>
-      		<div >Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-          <div class="time">Nov 2009 - Nov 2010</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-      	</div> 
-        
-         <div>
-        	<div class="experience-title">Web Designer </div> <!-- JOB TITLE  -->
-          <div>
-          	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>   <!-- JOB DESCRIPTION  -->
-          </div>
+<body>
+<div id="myDIV" class="header">
+  <h2>My To Do List</h2>
+  <input type="text" id="myInput" placeholder="Title...">
+  <span onclick="newElement()" class="addBtn">Add</span>
 </div>
-        </div>
-        
-</section>
 
-<br><br><hr>
-<section>
-      </div><!--Skill experience-->
-      
-      <div>
-      	<h2>Skills</h2>  <!-- YOUR SET OF SKILLS  -->
-	        <div style="padding-left:270px;">
-        	<ul>
-        		<li>HTML / HTML5</li>
-        		<li>CSS / CSS3 / SASS / LESS</li>
-        		<li>Javascript</li>
-        		<li>Jquery</li>
-			<li>React</li>
-			<li>Java</li>
-			<li>Python</li>
-			<li>C++</li>
-			<li>Competetive Programming</li>
-			<li>DJango</li>
-			<li>Flutter</li>
-			<li>Ethical Hacking</li>
-			<li>Bug Bounty</li>
-        		<li>Wordpress</li>
-        		<li>Photoshop</li>
-            
-        	</ul>
-		</div>
-        
-      </div>
-    </section>
+<ul id="myUL">
+  <li>Go to College</li>
+  <li class="checked">Pay bills</li>
+  <li>Get Staff Permission</li>
+  <li>Do Project</li>
+  <li>Read books</li>
+  <li>Return To Home</li>
+</ul
 
-  <br><br><hr>
-<section>
-      <div>
-	
-        <h2>Hobbies</h2>  <!-- DESCRIPTION OF YOUR HOBBIES -->
-	<div style="margin-left:270px; margin-bottom: 75px;">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>
-        
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p> 
-      </div>
-    </div>
-      
-  	</div>
-  </section>
-  
-  <div></div>
-</div>
-</div>
+
+<button type="button"  onclick="close()"></button>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
 </html>
